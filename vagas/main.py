@@ -62,7 +62,7 @@ def exibe_status(img, qt_vagas_abertas, num_vagas):
     cv2.putText(img, 'VAGAS: {}/{}'.format(qt_vagas_abertas, num_vagas), (100, 45), cv2.FONT_HERSHEY_DUPLEX, 1.5, (255, 255, 255), 5)
 
 def main():
-    video_path = 'vagas/parkinglot.mp4'
+    video_path = 'parkinglot.mp4'
     video = cv2.VideoCapture(video_path)
 
     if not video.isOpened():

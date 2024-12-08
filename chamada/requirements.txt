@@ -1,0 +1,4 @@
+opencv-python==4.10.0.84
+numpy==2.0.0
+pytesseract==0.3.10
+python-dotenv==1.0.0
